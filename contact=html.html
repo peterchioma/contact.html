@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Rapids Adventures for questions, bookings, or feedback. Reach us by phone, email, or visit our office.">
+  <title>Contact Us - Rapids Adventures</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Rapids Adventures</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p><strong>Address:</strong> 123 Adventure Road, Uyo, Akwa Ibom, NG</p>
+      <p><strong>Phone:</strong> +234 800 123 4567</p>
+      <p><strong>Email:</strong> contact@rapidsadventures.com</p>
+    </section>
+
+    <section class="map">
+      <h2>Our Location</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.007933305276!2d7.927764874985638!3d5.042630639956257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106787dfef098ccb%3A0xe642c6d82ef35a91!2sUyo%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1717000000000!5m2!1sen!2sng" 
+        width="300" 
+        height="200" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="purpose">Purpose:</label>
+        <select id="purpose" name="purpose">
+          <option value="general">General Inquiry</option>
+          <option value="booking">Booking</option>
+          <option value="support">Support</option>
+        </select>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <label><input type="checkbox" name="newsletter"> Subscribe to our newsletter</label>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <figure>
+        <img src="images/employee1.jpg" alt="Tour Guide - Jane Doe">
+        <figcaption>Jane Doe – Tour Guide</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee2.jpg" alt="River Safety - John Smith">
+        <figcaption>John Smith – River Safety</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee3.jpg" alt="Support Manager - Grace Lee">
+        <figcaption>Grace Lee – Support Manager</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Rapids Adventures | <a href="wireframe.pdf" target="_blank">View Wireframe</a></p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>
