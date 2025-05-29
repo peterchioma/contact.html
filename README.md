@@ -28,11 +28,3 @@ The Rapids Adventures website is designed as part of a course project to demonst
 ## Author
 
 Peter Chioma
-
-## License
-
-This project is for educational purposes only.
-
----
-
-*Feel free to customize this README with your own details or add sections like screenshots, technologies used, or future improvements.*
