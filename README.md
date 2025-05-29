@@ -36,7 +36,3 @@ This project is for educational purposes only.
 ---
 
 *Feel free to customize this README with your own details or add sections like screenshots, technologies used, or future improvements.*
-
----
-
-If you want, I can generate a ready-to-upload `README.md` file for you now. Would you like that?
