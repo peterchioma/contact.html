@@ -1,42 +1,38 @@
 # Rapids Adventures Website
 
-This repository contains the source code for the **Rapids Adventures** website, which includes the following pages:
+This repository contains the source code for the Rapids Adventures website, which includes the following pages:
 
 - **Home Page** (`index.html`): Introduction to Rapids Adventures.
 - **About Us Page** (`about.html`): Company history and adventure details.
-- **Contact Us Page** (`contact.html`): Contact information, inquiry form, embedded Google Map, and team member profiles.
+- **Contact Us Page** (`contact.html`): Contact information, form for inquiries, Google Map, and team member profiles.
 
 ## Project Purpose
 
-The Rapids Adventures website was created as part of a course project to demonstrate understanding of HTML, CSS, and basic web design principles. The project highlights:
-
-- Layout consistency across multiple pages.
-- User-friendly and accessible design.
-- Responsive structure that adapts to different devices.
+The Rapids Adventures website is designed as part of a course project to demonstrate HTML, CSS, and basic web design principles, including layout consistency, accessibility, and responsive design.
 
 ## Features
 
-- Uniform header, navigation bar, and footer on all pages.
-- A functional contact form with labeled inputs and basic validation.
-- Embedded Google Map showing the company’s physical location.
-- Section showcasing employee images and their roles.
-- Styled using an external CSS file based on a provided wireframe.
+- Consistent header, navigation, and footer across all pages.
+- Contact form with validation for user inputs.
+- Embedded Google Map showing company location.
+- Team section with employee photos and descriptions.
+- Styled using external CSS to match a provided wireframe design.
 
 ## How to Use
 
-1. **Clone or Download** this repository.
-2. **Open the HTML files** in any modern web browser to view the site.
-3. To customize the design, **edit the `styles.css`** file.
-4. If needed, update the form `action` in `contact.html` to connect to a back-end service.
+- Clone or download the repository.
+- Open the HTML files in a web browser to view the site.
+- Edit `styles.css` to customize styles.
+- Update the `contact.html` form action if you want to handle form submissions.
 
 ## Author
 
-*Your Name* (replace this with your actual name or GitHub username)
+Peter Chioma
 
 ## License
 
-This project is for **educational purposes only** and is not intended for commercial use.
+This project is for educational purposes only.
 
 ---
 
-Feel free to expand this README with screenshots, future improvements, or technologies used.
+*Feel free to customize this README with your own details or add sections like screenshots, technologies used, or future improvements.*
